@@ -11,8 +11,6 @@ const Supporting = (): JSX.Element => {
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
-    nextArrow: false,
-    prevArrow: false,
     autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
