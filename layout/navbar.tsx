@@ -1,0 +1,48 @@
+import React from "react";
+import { Container } from "../components";
+import { NAV_ITEMS } from "../constants/data";
+import Image from "next/image";
+const Navbar = () => {
+  return (
+    <div className="bg-[#2E2E38] justify-center flex w-full">
+      <Container>
+        <div className="w-full h-[90px] flex justify-between items-center ">
+          <div className="lg:w-[45%] w-[20%] h-full  flex items-center">
+            <div className="lg:w-[30%] w-full">
+              <Image src="./images/logo.svg" width={115} height={1} alt="" />
+            </div>
+            <div className="lg:flex hidden justify-between lg:w-[70%] ">
+              {NAV_ITEMS.map((nav) => (
+                <h2 className="text-sm font-normal text-white cursor-pointer border-transparent transition-all h-[90px] flex items-center  border-b-4 hover:border-b-4 hover:border-[#FFE600]">
+                  {nav.item}
+                </h2>
+              ))}
+            </div>
+          </div>
+          <div className="lg:w-[55%] w-[80%] h-full  flex justify-end items-center gap-8">
+            <div className="flex items-center gap-2 h-[90px] border-transparent transition-all cursor-pointer  border-b-4 hover:border-b-4 hover:border-[#FFE600]">
+              <Image src="./images/search.svg" width={20} height={1} alt="" />
+              <h2 className="text-[11px] font-normal text-white cursor-pointer ">
+                Search
+              </h2>
+            </div>
+            <div className="flex items-center gap-2 h-[90px] border-transparent transition-all cursor-pointer  border-b-4 hover:border-b-4 hover:border-[#FFE600]">
+              <Image src="./images/user.svg" width={20} height={1} alt="" />
+              <h2 className="text-[11px] font-normal text-white cursor-pointer ">
+                My EY
+              </h2>
+            </div>
+            <div className="flex items-center gap-2 h-[90px] border-transparent transition-all cursor-pointer  border-b-4 hover:border-b-4 hover:border-[#FFE600]">
+              <Image src="./images/world.svg" width={20} height={1} alt="" />
+              <h2 className="text-[11px] font-normal text-white cursor-pointer ">
+                United States
+              </h2>
+            </div>
+          </div>
+        </div>
+      </Container>
+    </div>
+  );
+};
+
+export default Navbar;
