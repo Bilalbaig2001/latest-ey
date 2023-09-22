@@ -13,7 +13,7 @@ const heroSection = (): JSX.Element => {
         <div className="lg:flex justify-between items-center">
           <div>
             <p className="text-[#FFE600] text-[16px] font-normal">Ai</p>
-            <p className="text-[40px] text-white font-normal leading-[50px]">
+            <p className="lg:text-[40px] md:text-[38px] text-[30px] text-white font-normal leading-[50px]">
               How can financial services firms derive <br /> value from
               generative AI?
             </p>

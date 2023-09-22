@@ -9,10 +9,10 @@ const CommunitySection = ({ data }: any): JSX.Element => {
           <div
             className={
               data?.isPosition
-                ? "order-2 flex items-center lg:p-10 lg:pt-0 pt-6"
+                ? "order-2 flex items-center lg:p-10 lg:pt-0 pt-6 "
                 : data?.isCustom
-                ? "order-2 flex items-center pr-6 pt-6"
-                : "order-1 flex items-center lg:p-10 lg:pt-0 pt-6"
+                ? "order-2 flex items-center pr-6 pt-6 lg:pb-0 md:pb-0 pb-6"
+                : "order-1 flex items-center lg:p-10 lg:pt-0 pt-6 lg:pb-0 md:pb-0 pb-6"
             }
           >
             <div>
@@ -25,8 +25,8 @@ const CommunitySection = ({ data }: any): JSX.Element => {
               <div
                 className={
                   data?.isCustom
-                    ? "lg:w-[60%] md:w-[35%] w-[50%] pt-7"
-                    : "lg:w-[30%] md:w-[35%] w-[50%] pt-7"
+                    ? "lg:w-[60%] md:w-[35%] w-[60%] pt-7"
+                    : "lg:w-[30%] md:w-[35%] w-[60%] pt-7"
                 }
               >
                 <Button label={data?.btn} isColor />

@@ -26,7 +26,7 @@ const Card = ({ data, isCustom }: any): JSX.Element => {
         {data?.subHeading}
       </p>
 
-      <div className="w-[30%] pt-8">
+      <div className="w-[40%] pt-8">
         <Button label="Learn more" />
       </div>
     </div>

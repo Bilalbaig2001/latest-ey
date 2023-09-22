@@ -31,7 +31,7 @@ const Bussiness = () => {
             </div>
           </div>
         </div>
-        <div className="h-[450px] pt-12 overflow-hidden w-full">
+        <div className="lg:h-[450px] md:h-[450] h-auto pt-12 overflow-hidden w-full">
           <CommunitySection data={BussinessData} />
         </div>
       </Container>

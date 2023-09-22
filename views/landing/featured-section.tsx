@@ -31,7 +31,7 @@ const FeaturedSection = (): JSX.Element => {
       </div>
 
       <div className="w-full flex justify-center">
-        <div className="w-[200px]">
+        <div className="w-[200px] lg:mt-0 md:mt-0 mt-5">
           <Button label="Visit the newsroom" isColor />
         </div>
       </div>
