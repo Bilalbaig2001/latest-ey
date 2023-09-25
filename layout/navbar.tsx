@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="lg:w-[30%] w-full">
               <Image src="./images/logo.svg" width={115} height={1} alt="" />
             </div>
-            <div className="lg:flex hidden justify-between lg:w-[70%] ">
+            <div className="lg:flex hidden justify-between lg:w-[70%]">
               {NAV_ITEMS.map((nav) => (
                 <h2 className="text-sm font-normal text-white cursor-pointer border-transparent transition-all h-[90px] flex items-center  border-b-4 hover:border-b-4 hover:border-[#FFE600]">
                   {nav.item}
