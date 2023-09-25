@@ -10,7 +10,7 @@ const Bussiness = () => {
       <Container>
         <div>
           <p className="text-[40px] text-[#2E2E38] font-normal">
-            Today's business insights
+            Trending business insights
           </p>
         </div>
         <div className="flex justify-center w-full items-center">

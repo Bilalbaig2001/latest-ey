@@ -26,11 +26,9 @@ const Footer = (): JSX.Element => {
         <div className="mt-6 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1">
           <div>
             <p className="text-[#2E2E38AB] text-[14px] font-normal">
-              EY refers to the global organization, and may refer to one or
-              more, of the member firms of Ernst & Young Global Limited, each of
-              which is a separate legal entity. Ernst & Young Global Limited, a
-              UK company limited by guarantee, does not provide services to
-              clients.
+              WKS refers to the global network, and may refer to one or more of
+              the member firms of Wang Khan Stern Corp, each a
+              separate legal entity.
             </p>
           </div>
           <div className=" flex flex-wrap gap-4 lg:justify-end md:justify-end justify-start lg:mt-0 md:mt-0 mt-5">

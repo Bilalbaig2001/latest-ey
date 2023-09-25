@@ -1,9 +1,16 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { Supporting_arr } from "../../constants/data";
 import Slider from "react-slick";
 const Supporting = (): JSX.Element => {
+  const [showAll, setShowAll] = useState(false);
+  const [itemIndex, setItemIndex] = useState(0);
+  const toggleShowAll = (index: any) => {
+    setItemIndex(index);
+    setShowAll(!showAll);
+  };
+
   var settings = {
     dots: false,
     infinite: true,
@@ -50,27 +57,50 @@ const Supporting = (): JSX.Element => {
       }}
       className="w-full h-[400px] mt-14"
     >
-      <div className="w-full">
+      <div className="w-full ">
         <Slider {...settings}>
-          {Supporting_arr?.map((item) => (
-            <div className="w-[25%] pt-[210px] border-r border-[#d9d9d97e] h-[400px] cursor-pointer  pb-6 px-3 hover:bg-[#00000054] transition-all">
-              <div>
-                <p className="text-white text-[28px] font-normal">
-                  {item?.heading}
-                </p>
-                <p className="text-[16px] font-normal text-white pt-2">
-                  {item?.subHeading}
-                </p>
-                <p className="text-[16px] font-normal text-white pt-4 flex items-center">
-                  Discover
-                  <Image
-                    src="./images/right-arrow.svg"
-                    width={20}
-                    height={1}
-                    alt=""
-                    className="ml-2"
-                  />
-                </p>
+          {Supporting_arr?.map((item, index) => (
+            <div className="w-[25%]  border-r   border-[#d9d9d97e] h-[400px] cursor-pointer  pb-6 px-3 hover:bg-[#00000054] transition-all">
+              <div className=" h-full flex items-end">
+                <div>
+                  <p className="text-white text-[28px] font-normal">
+                    {item?.heading}
+                  </p>
+                  <p className="text-[16px] font-normal text-white pt-2">
+                    {/* {item?.subHeading} */}
+                    {showAll
+                      ? index === itemIndex
+                        ? item?.subHeading
+                        : item?.subHeading.slice(0, 60)
+                      : item?.subHeading.slice(0, 60)}
+                    {/* Display 50 words or all words */}
+                    {!showAll && item?.subHeading.length > 60 ? (
+                      <button
+                        onClick={() => toggleShowAll(index)}
+                        className="text-[#00a337]"
+                      >
+                        Show More
+                      </button>
+                    ) : (
+                      <button
+                        onClick={() => setShowAll(false)}
+                        className="text-[#00a337]"
+                      >
+                        Show less
+                      </button>
+                    )}
+                  </p>
+                  <p className="text-[16px] font-normal text-white pt-4 flex items-center">
+                    Discover
+                    <Image
+                      src="./images/right-arrow.svg"
+                      width={20}
+                      height={1}
+                      alt=""
+                      className="ml-2"
+                    />
+                  </p>
+                </div>
               </div>
             </div>
           ))}

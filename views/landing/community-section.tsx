@@ -25,8 +25,8 @@ const CommunitySection = ({ data }: any): JSX.Element => {
               <div
                 className={
                   data?.isCustom
-                    ? "lg:w-[60%] md:w-[35%] w-[60%] pt-7"
-                    : "lg:w-[30%] md:w-[35%] w-[60%] pt-7"
+                    ? "lg:w-[60%] md:w-[35%] w-full pt-7 "
+                    : "lg:w-[30%] md:w-[35%] w-full pt-7 lg:mb-0 mb-5"
                 }
               >
                 <Button label={data?.btn} isColor />

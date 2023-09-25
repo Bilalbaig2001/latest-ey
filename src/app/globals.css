@@ -11,6 +11,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: Bahnschrift !important;
 }
 
 body
@@ -18,5 +19,25 @@ body
   > div
   > div
   > button.slick-arrow.slick-next {
+  display: none !important;
+}
+body > div:nth-child(2) > div > button.slick-arrow.slick-next {
+  display: none !important;
+}
+
+body
+  > div.w-full.h-\[400px\].mt-14
+  > div
+  > div
+  > div
+  > div
+  > div:nth-child(5)
+  > div
+  > div {
+  display: flex !important;
+  align-items: end !important;
+}
+
+body > div:nth-child(11) > div > button.slick-arrow.slick-next {
   display: none !important;
 }

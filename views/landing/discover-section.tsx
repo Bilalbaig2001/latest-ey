@@ -3,7 +3,7 @@ import { Container, Button } from "../../components";
 import { Quick_btns } from "../../constants/data";
 const DiscoverSection = (): JSX.Element => {
   return (
-    <div className="h-[340px] bg-[#1A1A24] my-8">
+    <div className="lg:h-[340px] md:h-[350px] h-auto bg-[#1A1A24] my-8 lg:pb-0 md:pb-0 pb-12">
       <Container>
         <div className="lg:flex md:flex justify-between items-center lg:px-16 lg:h-[290px] md:h-[290px] ">
           <div className="lg:w-[55%] md:w-[55%] w-full lg:pt-0 md:pt-0 pt-10">
@@ -11,7 +11,7 @@ const DiscoverSection = (): JSX.Element => {
             <input
               type="search"
               className="placeholder:text-[#000] h-[39px] px-2 w-[146px] focus:outline-none"
-              placeholder="EY Search"
+              placeholder="WKS Search"
             />
           </div>
           <div className="lg:w-[45%] md:w-[45%] w-full lg:pt-0 md:pt-0 pt-5">

@@ -50,15 +50,15 @@ export const CummunityData = {
 
 export const BuildingData = {
   heading: "Building a more equitable working world",
-  subHeading: "WEY US Diversity, Equity and Inclusion report 2022 release",
+  subHeading:
+    "WKS SocEco Tech Report; Diversity, Equity and Inclusion for 2023 release Dec 2023",
   image: "./images/building-img.svg",
   btn: "Find out more",
   isPosition: true,
 };
 
 export const BussinessData = {
-  heading:
-    "As the economy slows, respond to where—and how—consumers are spending",
+  heading: "SocEco Tech You-tube channel featured channel this month:",
   subHeading:
     "Kathy Gramling, EY Americas Consumer Industry Markets Leader, believes consumers will keep spending. She joins Real Time Insights to share how companies can use consumer insights to keep customers engaged when wallets are stretched.",
   image: "./images/bussiness-img.svg",
@@ -83,31 +83,24 @@ export const Bussiness_item = [
 
 export const Supporting_arr = [
   {
-    heading: "Financial Services",
+    heading: "Strategy Consulting",
     subHeading:
-      "Featured: Why your CIO could be the new co-pilot of your business",
+      "WKS recognize that CEOs and business leaders are tasked with achieving maximum value for their organizations' stakeholders in this transformative age. We challenge assumptions to design and deliver strategies that help improve profit ability and long-term value.",
   },
   {
-    heading: "Energy & Resources",
-    subHeading: "Featured: Why carbon capture just became an economic fastball",
-  },
-  {
-    heading: "Energy & Resources",
-    subHeading: "Featured: Why carbon capture just became an economic fastball",
-  },
-  {
-    heading: "Energy & Resources",
-    subHeading: "Featured: Why carbon capture just became an economic fastball",
-  },
-  {
-    heading: "Private Equality",
+    heading: "Corporate & Growth Strategy",
     subHeading:
-      "Featured: Three ways CFOs are adapting to emerging private equity trends",
+      "WKS develop and deliver strategic opportunities for clients by providing in-depth market, competitor and customer insight Đ incorporating financial, operational and implementation perspectives across their entire organization.",
   },
   {
-    heading: "Government & Public Sector Consulting",
+    heading: "Restructing & Turnaround Strategy",
     subHeading:
-      "Featured: Improving delivery and mission execution via data modernization",
+      "Today's disruption will require organizations to reshape. Strategic change focusing on financial and business restructuring or turnaround must be implemented with speed and certainty. We provide trusted leadership in critical and complex situations to transform, create, preserve and recover value.",
+  },
+  {
+    heading: "Digital Strategy",
+    subHeading:
+      "WKS design and help deliver digital strategy. We provide clients with distinct, innovative, sustainable, data-driven services to help fuel future growth, optimize current digital competencies and accelerate digit al and business transformation.",
   },
 ];
 
@@ -116,8 +109,7 @@ export const Featured_card = [
     img: "./images/featured-img-1.svg",
     heading:
       "Nature-related reporting tied to the Taskforce on Nature-related Financial…",
-    subHeading:
-      "Ernst & Young LLP (EY US) released its inaugural EY US Nature Risk Barometer (the “Barometer”)",
+    subHeading: "The Nature Risk Barometer (the “Barometer”)",
   },
   {
     img: "./images/featured-img-2.svg",
@@ -132,45 +124,48 @@ export const Featured_releases = [
   {
     heading: "More press releases",
     subHeading:
-      "EY research: Nearly half of US car buyers intend to purchase an EV",
+      "Research: Nearly half of US car buyers intend to purchase an EV",
     date: "22 Jun 2023",
   },
   {
     heading: "",
     subHeading:
-      "EY Announces Winners for the Entrepreneur Of The Year® 2023 Mid-Atlantic Award",
+      "Announces Winners for the Entrepreneur Of The Year® 2023 Mid-Atlantic Award",
     date: "23 Jun 2023",
   },
   {
     heading: "",
     subHeading:
-      "EY Announces Winners for the Entrepreneur Of The Year® 2023 Midwest Award",
+      "Announces Winners for the Entrepreneur Of The Year® 2023 Midwest Award",
     date: "22 Jun 2023",
   },
 ];
 
 export const Quick_btns = [
   {
-    label: "Tax",
+    label: "Subscribe",
   },
   {
-    label: "Careers",
+    label: "Industries",
   },
 
   {
-    label: "Audit",
+    label: "About us",
   },
   {
-    label: "Strategy",
+    label: "CEO",
   },
   {
-    label: "Tax",
+    label: "CFO",
   },
   {
-    label: "Tax",
+    label: "CTO",
   },
   {
-    label: "Careers",
+    label: "Assurance",
+  },
+  {
+    label: "Technology",
   },
 ];
 
@@ -188,7 +183,7 @@ export const FOOTER_ITEMS = [
     label: "Webcasts",
   },
   {
-    label: "My EY",
+    label: "My WKS",
   },
   {
     label: "Site map",

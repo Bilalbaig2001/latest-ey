@@ -5,7 +5,7 @@ const FeaturedSection = (): JSX.Element => {
   return (
     <Container>
       <p className="text-[32px] font-normal text-[#2E2E38]">
-        Featured press releases
+        Change to featured Online articles
       </p>
       <div className="lg:flex w-full">
         <div className="lg:w-[65%] w-full lg:flex md:flex  lg:justify-between md:justify-between justify-center gap-3 mt-8">

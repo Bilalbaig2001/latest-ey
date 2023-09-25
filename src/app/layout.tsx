@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "../../layout/navbar";
 import Footer from "../../layout/footer";
+import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,6 +18,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* <div>
+        <Script
+          rel="preload"
+          href="Bahnschrift.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin
+        />
+      </div> */}
+      <head>
+        <link
+          rel="preload"
+          href="Bahnschrift.woff2"
+          as="font"
+          type="font/woff2"
+        />
+      </head>
+
       <body className={inter.className}>
         <Navbar />
         {children}

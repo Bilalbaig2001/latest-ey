@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import { Button } from "../components";
@@ -11,7 +12,7 @@ const Card = ({ data, isCustom }: any): JSX.Element => {
         className={
           isCustom
             ? "text-[20px] font-normal text-[#000000]"
-            : "text-[20px] font-normal text-[#FFE600]"
+            : "text-[20px] font-normal text-[#00bf41]"
         }
       >
         {data?.heading}
@@ -20,7 +21,7 @@ const Card = ({ data, isCustom }: any): JSX.Element => {
         className={
           isCustom
             ? "text-[14px] font-normal text-[#000000] pt-3"
-            : "text-[20px] font-normal text-white pt-10"
+            : "text-[14px] font-normal text-white pt-6"
         }
       >
         {data?.subHeading}

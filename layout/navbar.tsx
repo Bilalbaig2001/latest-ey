@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="bg-[#2E2E38] justify-center flex w-full">
       <Container>
         <div className="w-full h-[90px] flex justify-between items-center ">
-          <div className="lg:w-[45%] w-[20%] h-full  flex items-center">
+          <div className="lg:w-[45%] w-[50%] h-full  flex items-center">
             <div className="lg:w-[30%] w-full">
               <Image src="./images/logo.svg" width={115} height={1} alt="" />
             </div>
@@ -19,7 +19,7 @@ const Navbar = () => {
               ))}
             </div>
           </div>
-          <div className="lg:w-[55%] w-[80%] h-full  flex justify-end items-center gap-8">
+          <div className="lg:w-[55%] w-[80%] h-full  lg:flex hidden justify-end items-center gap-8">
             <div className="flex items-center gap-2 h-[90px] border-transparent transition-all cursor-pointer  border-b-4 hover:border-b-4 hover:border-[#FFE600]">
               <Image src="./images/search.svg" width={20} height={1} alt="" />
               <h2 className="text-[11px] font-normal text-white cursor-pointer ">
@@ -29,7 +29,7 @@ const Navbar = () => {
             <div className="flex items-center gap-2 h-[90px] border-transparent transition-all cursor-pointer  border-b-4 hover:border-b-4 hover:border-[#FFE600]">
               <Image src="./images/user.svg" width={20} height={1} alt="" />
               <h2 className="text-[11px] font-normal text-white cursor-pointer ">
-                My EY
+                My WKS
               </h2>
             </div>
             <div className="flex items-center gap-2 h-[90px] border-transparent transition-all cursor-pointer  border-b-4 hover:border-b-4 hover:border-[#FFE600]">
@@ -38,6 +38,15 @@ const Navbar = () => {
                 United States
               </h2>
             </div>
+          </div>
+          <div className="lg:hidden flex w-[80%] justify-end items-center">
+            <Image
+              src="./images/hamicon.svg"
+              width={25}
+              height={1}
+              alt=""
+              className="cursor-pointer"
+            />
           </div>
         </div>
       </Container>
