@@ -30,9 +30,9 @@ const heroSection = (): JSX.Element => {
                 <div className="lg:flex justify-between items-center">
                   <div>
                     <p className="text-[#FFE600] text-[16px] font-normal">Ai</p>
-                    <p className="lg:text-[40px] md:text-[38px] text-[28px] text-white font-normal leading-[50px]">
-                      WKS Online Portal Business and <br />
-                      Technology© Unifying platform
+                    <p className="lg:text-[35px] md:text-[32px] text-[28px] text-white font-normal leading-[50px]">
+                      Online Portal Business and <br />
+                      Technology Unifying Platform©
                     </p>
                   </div>
                   <div className="lg:text-right text-left lg:pt-0 pt-4">

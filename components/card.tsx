@@ -2,7 +2,15 @@
 import React from "react";
 import Image from "next/image";
 import { Button } from "../components";
-const Card = ({ data, isCustom }: any): JSX.Element => {
+const Card = ({
+  data,
+  isCustom,
+  index,
+  toggleShowAll,
+  showAll,
+  itemIndex,
+  setShowAll,
+}: any): JSX.Element => {
   return (
     <div className="w-full pb-10 ">
       <div className="pb-7 w-full flex items-start ">
@@ -15,7 +23,32 @@ const Card = ({ data, isCustom }: any): JSX.Element => {
             : "text-[20px] font-normal text-[#76C357]"
         }
       >
-        {data?.heading}
+        {/* {data?.heading} */}
+        {showAll
+          ? index === itemIndex
+            ? data?.heading
+            : data?.heading.slice(0, 37)
+          : data?.heading.slice(0, 37)}
+
+        {data?.heading.length > 37 && (
+          <>
+            {!showAll && data?.subHeading.length > 37 ? (
+              <button
+                onClick={() => toggleShowAll(index)}
+                className="text-[#76C357] pl-1 text-3xl"
+              >
+                ...
+              </button>
+            ) : (
+              <button
+                onClick={() => setShowAll(false)}
+                className="text-red-500 pl-1 text-3xl"
+              >
+                ...
+              </button>
+            )}
+          </>
+        )}
       </p>
       <p
         className={

@@ -19,6 +19,9 @@ const CommunitySection = ({ data }: any): JSX.Element => {
               <p className="text-[#2E2E38] font-normal text-[27px]">
                 {data?.heading}
               </p>
+              <p className="text-[#2E2E38] font-normal text-[27px]">
+                {data?.heading2}
+              </p>
               <p className="text-[20px] text-[#2E2E38] font-normal pt-6">
                 {data?.subHeading}
               </p>

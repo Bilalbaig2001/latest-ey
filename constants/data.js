@@ -33,7 +33,7 @@ export const TRENDING_CARDS = [
   {
     img: "./images/trending-img-3.svg",
     heading:
-      "If energy transition is an evolution, how does oil and gas proceed?",
+      "If energy transition is an evolution, how dows oil and gas proceed?",
     subHeading:
       "Our annual US E&P Benchmarking Study and quarterly earnings analysis of oil and gas companies illuminates three themes in the industry.",
   },
@@ -51,14 +51,15 @@ export const CummunityData = {
 export const BuildingData = {
   heading: "Building a more equitable working world",
   subHeading:
-    "WKS SocEco Tech Report; Diversity, Equity and Inclusion for 2023 release Dec 2023",
+    "WKS© SocEco Tech Report; Diversity, Equity and Inclusion for release Dec 2023",
   image: "./images/building-img.svg",
   btn: "Find out more",
   isPosition: true,
 };
 
 export const BussinessData = {
-  heading: "SocEco Tech You-tube channel featured channel this month:",
+  heading: "SocEco Tech You-tube Feed: ",
+  heading2: "featured channel this month©",
   subHeading:
     "Kathy Gramling, EY Americas Consumer Industry Markets Leader, believes consumers will keep spending. She joins Real Time Insights to share how companies can use consumer insights to keep customers engaged when wallets are stretched.",
   image: "./images/bussiness-img.svg",
@@ -114,7 +115,7 @@ export const Featured_card = [
   {
     img: "./images/featured-img-2.svg",
     heading:
-      "EY celebrates the 23 founders selected for the EY Entrepreneurial Winning W…",
+      "Ernst & Young celebrates the 23 founders selected for the EY Entrepreneurial Winning W…",
     subHeading:
       "Ernst & Young LLP (EY) is proud to announce the 23 founders from 20 companies who were",
   },
@@ -202,11 +203,27 @@ export const FOOTER_ITEMS = [
 export const FOOTER_ICONS = [
   {
     icon: "./images/social-icon1.svg",
+    url: "https://www.linkedin.com/feed/",
   },
   {
     icon: "./images/social-icon2.svg",
+    url: "https://www.youtube.com/",
+  },
+
+  {
+    icon: "./images/social-icon4.svg",
+    url: "https://web.wechat.com/?lang=en",
   },
   {
-    icon: "./images/social-icon3.svg",
+    icon: "./images/social-icon5.svg",
+    url: "https://web.whatsapp.com/",
+  },
+  {
+    icon: "./images/social-icon6.svg",
+    url: "https://twitter.com/",
+  },
+  {
+    icon: "./images/social-icon7.svg",
+    url: "https://www.tiktok.com/",
   },
 ];

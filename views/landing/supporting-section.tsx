@@ -64,29 +64,33 @@ const Supporting = (): JSX.Element => {
               <div className=" h-full flex items-end">
                 <div>
                   <p className="text-white text-[28px] font-normal">
-                    {item?.heading}
+                    {showAll
+                      ? index === itemIndex
+                        ? item?.heading
+                        : item?.heading.slice(0, 18)
+                      : item?.heading.slice(0, 18)}
                   </p>
                   <p className="text-[16px] font-normal text-white pt-2">
                     {/* {item?.subHeading} */}
                     {showAll
                       ? index === itemIndex
                         ? item?.subHeading
-                        : item?.subHeading.slice(0, 60)
-                      : item?.subHeading.slice(0, 60)}
+                        : item?.subHeading.slice(0, 65)
+                      : item?.subHeading.slice(0, 65)}
                     {/* Display 50 words or all words */}
-                    {!showAll && item?.subHeading.length > 60 ? (
+                    {!showAll && item?.subHeading.length > 65 ? (
                       <button
                         onClick={() => toggleShowAll(index)}
-                        className="text-[#76C357]"
+                        className="text-[#76C357] pl-1 text-3xl"
                       >
-                        Show More
+                        ...
                       </button>
                     ) : (
                       <button
                         onClick={() => setShowAll(false)}
-                        className="text-[#76C357]"
+                        className="text-[#76C357] pl-1 text-3xl"
                       >
-                        Show less
+                        ...
                       </button>
                     )}
                   </p>

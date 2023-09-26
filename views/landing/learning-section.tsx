@@ -19,7 +19,7 @@ const Learning = (): JSX.Element => {
               Early years learning programs
             </p>
             <p className="text-[40px] text-white font-normal leading-[50px] pt-4">
-              How a state distributed <br /> &162.3m in aid to early <br />{" "}
+              How a state distributed <br /> 162.3m in aid to early <br />{" "}
               learning workers
             </p>
             <div>
