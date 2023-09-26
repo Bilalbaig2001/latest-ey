@@ -12,7 +12,7 @@ const Card = ({ data, isCustom }: any): JSX.Element => {
         className={
           isCustom
             ? "text-[20px] font-normal text-[#000000]"
-            : "text-[20px] font-normal text-[#00bf41]"
+            : "text-[20px] font-normal text-[#76C357]"
         }
       >
         {data?.heading}

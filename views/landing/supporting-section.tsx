@@ -77,14 +77,14 @@ const Supporting = (): JSX.Element => {
                     {!showAll && item?.subHeading.length > 60 ? (
                       <button
                         onClick={() => toggleShowAll(index)}
-                        className="text-[#00a337]"
+                        className="text-[#76C357]"
                       >
                         Show More
                       </button>
                     ) : (
                       <button
                         onClick={() => setShowAll(false)}
-                        className="text-[#00a337]"
+                        className="text-[#76C357]"
                       >
                         Show less
                       </button>

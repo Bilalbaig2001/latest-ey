@@ -8,11 +8,12 @@ const Footer = (): JSX.Element => {
       <div className="py-14">
         <div className="w-full lg:flex">
           <div className="lg:w-[20%] w-full lg:mb-0 mb-5">
-            <Image
-              src="./images/footer-logo.svg"
+            <img
+              src="./images/logo-2.png"
               width={160}
               height={1}
               alt=""
+              className="w-36"
             />
           </div>
           <div className="lg:w-[80%] w-full flex items-center flex-wrap gap-6">
