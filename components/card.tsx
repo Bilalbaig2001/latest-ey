@@ -23,7 +23,6 @@ const Card = ({
             : "text-[20px] font-normal text-[#76C357]"
         }
       >
-        {/* {data?.heading} */}
         {showAll
           ? index === itemIndex
             ? data?.heading
