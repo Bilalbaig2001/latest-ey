@@ -7,7 +7,7 @@ const Footer = (): JSX.Element => {
     <Container>
       <div className="py-14">
         <div className="w-full lg:flex">
-          <div className="lg:w-[20%] w-full lg:mb-0 mb-5">
+          <div className="lg:w-[20%] w-full flex gap-1 lg:mb-0 mb-5">
             <img
               src="./images/logo-2.png"
               width={160}
@@ -15,6 +15,9 @@ const Footer = (): JSX.Element => {
               alt=""
               className="w-36"
             />
+            <p className="text-[13px] text-[#000] leading-[10px] flex items-end pb-1">
+              Nature out <br /> future
+            </p>
           </div>
           <div className="lg:w-[80%] w-full flex items-center flex-wrap gap-6">
             {FOOTER_ITEMS?.map((item) => (

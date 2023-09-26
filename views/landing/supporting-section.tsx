@@ -60,7 +60,7 @@ const Supporting = (): JSX.Element => {
       <div className="w-full ">
         <Slider {...settings}>
           {Supporting_arr?.map((item, index) => (
-            <div className="w-[25%]  border-r   border-[#d9d9d97e] h-[400px] cursor-pointer  pb-6 px-3 hover:bg-[#00000054] transition-all">
+            <div className="w-[25%]  border-r border-[#d9d9d97e] h-[400px] cursor-pointer  pb-6 px-3 hover:bg-[#00000054] transition-all">
               <div className=" h-full flex items-end">
                 <div>
                   <p className="text-white text-[28px] font-normal">

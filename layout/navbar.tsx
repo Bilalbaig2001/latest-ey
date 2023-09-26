@@ -8,7 +8,7 @@ const Navbar = () => {
       <Container>
         <div className="w-full h-[90px] flex justify-between items-center ">
           <div className="lg:w-[45%] w-[50%] h-full  flex items-center">
-            <div className="lg:w-[30%] w-full flex ">
+            <div className="lg:w-[30%] w-full flex gap-1 ">
               <img
                 src="./images/logo-2.png"
                 className="w-20"
@@ -16,6 +16,9 @@ const Navbar = () => {
                 height={1}
                 alt=""
               />
+              <p className="text-[10px] text-white leading-[10px] flex items-end">
+                Nature out <br /> future
+              </p>
             </div>
             <div className="lg:flex hidden justify-between lg:w-[70%]">
               {NAV_ITEMS.map((nav) => (
