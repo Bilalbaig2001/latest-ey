@@ -10,7 +10,7 @@ const Navbar = () => {
           <div className="lg:w-[45%] w-[50%] h-full  flex items-center">
             <div className="lg:w-[30%] w-full flex gap-1 ">
               <img
-                src="./images/logo-3.png"
+                src="https://ik.imagekit.io/WKS/logo-3.png?updatedAt=1696235810236"
                 className="w-24"
                 width={115}
                 height={1}

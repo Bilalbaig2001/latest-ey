@@ -14,7 +14,7 @@ const Card = ({
   return (
     <div className="w-full pb-10 ">
       <div className="pb-7 w-full flex items-start ">
-        <Image src={data?.img} width={500} height={300} alt="" />
+        <img src={data?.img} width={500} height={300} alt="" />
       </div>
       <p
         className={

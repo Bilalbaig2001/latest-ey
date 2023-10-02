@@ -4,7 +4,7 @@ const Learning = (): JSX.Element => {
   return (
     <div
       style={{
-        backgroundImage: `linear-gradient(90deg, rgba(0,0,0,0.4766281512605042) 0%, rgba(0,0,0,0.36755952380952384) 0%),url(${"./images/learning-img.svg"})`,
+        backgroundImage: `linear-gradient(90deg, rgba(0,0,0,0.4766281512605042) 0%, rgba(0,0,0,0.36755952380952384) 0%),url(${"https://ik.imagekit.io/WKS/image%2013.png?updatedAt=1696241991833"})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPositionX: "center",

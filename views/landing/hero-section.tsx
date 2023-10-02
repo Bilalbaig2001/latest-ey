@@ -17,11 +17,11 @@ const heroSection = (): JSX.Element => {
   return (
     <div className="w-full">
       <Slider {...settings}>
-        {arr.map((img) => (
+        {arr?.map((img) => (
           <div>
             <div
               style={{
-                background: `url(${img.img})`,
+                background: `url(${img?.img})`,
                 backgroundSize: "cover",
               }}
               className="w-full lg:h-[590px] md:h-[590px] h-[480px] bg-[#2E2E38] flex items-end pb-20"
@@ -59,7 +59,11 @@ const heroSection = (): JSX.Element => {
 export default heroSection;
 
 const arr = [
-  { img: "./images/hero-image.svg" },
-  { img: "./images/trending-img.svg" },
-  { img: "./images/banner-img-2.jpg" },
+  { img: "https://ik.imagekit.io/WKS/hero-image.svg?updatedAt=1696236394777" },
+  {
+    img: "https://ik.imagekit.io/WKS/trending-img.svg?updatedAt=1696236437112",
+  },
+  {
+    img: "https://ik.imagekit.io/WKS/banner-img-2.jpg?updatedAt=1696236471955",
+  },
 ];

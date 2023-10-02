@@ -50,7 +50,7 @@ const Supporting = (): JSX.Element => {
   return (
     <div
       style={{
-        backgroundImage: `url(${"./images/supporting-img.svg"})`,
+        backgroundImage: `url(${"https://ik.imagekit.io/WKS/Group%201488.png?updatedAt=1696241991703"})`,
         backgroundSize: "cover",
         backgroundPositionX: "center",
         backgroundRepeat: "no-repeat",

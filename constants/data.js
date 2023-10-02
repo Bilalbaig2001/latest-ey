@@ -18,20 +18,20 @@ export const NAV_ITEMS = [
 
 export const TRENDING_CARDS = [
   {
-    img: "./images/trending-img.svg",
+    img: "https://ik.imagekit.io/WKS/trending-img.svg?updatedAt=1696236437112",
     heading:
       "How consumer affordability, loyalty and trust were redefined in the age of AI",
     subHeading:
       "As consumers redefine core tenets of their relationships with retailers and brands, how can companies navigate these shifts?",
   },
   {
-    img: "./images/trending-img-2.svg",
+    img: "https://ik.imagekit.io/WKS/trending-img-2.svg?updatedAt=1696236743073",
     heading: "Back to basics for IPOs?",
     subHeading:
       "More traditional approaches in the IPO market may become fashionable again when the US-based new issue window reopens.",
   },
   {
-    img: "./images/trending-img-3.svg",
+    img: "https://ik.imagekit.io/WKS/trending-img-3.svg?updatedAt=1696236742933",
     heading:
       "If energy transition is an evolution, how dows oil and gas proceed?",
     subHeading:
@@ -43,7 +43,7 @@ export const CummunityData = {
   heading: "Our commitment to audit quality",
   subHeading:
     "We embrace our responsibility as independent auditors to perform high-quality audits that promote trust and confidence in the capital markets.",
-  image: "./images/community-img.svg",
+  image: "https://ik.imagekit.io/WKS/image%207.png?updatedAt=1696240180361",
   btn: "Find out more",
   isPosition: false,
 };
@@ -52,7 +52,7 @@ export const BuildingData = {
   heading: "Building a more equitable working world",
   subHeading:
     "WKS© SocEco Tech Report; Diversity, Equity and Inclusion for release Dec 2023",
-  image: "./images/building-img.svg",
+  image: "https://ik.imagekit.io/WKS/image%209.png?updatedAt=1696240180023",
   btn: "Find out more",
   isPosition: true,
 };
@@ -62,7 +62,7 @@ export const BussinessData = {
   heading2: "featured channel this month©",
   subHeading:
     "Kathy Gramling, EY Americas Consumer Industry Markets Leader, believes consumers will keep spending. She joins Real Time Insights to share how companies can use consumer insights to keep customers engaged when wallets are stretched.",
-  image: "./images/bussiness-img.svg",
+  image: "https://ik.imagekit.io/WKS/image%2012.png?updatedAt=1696240179958",
   btn: "More videos on consumer insights",
   isPosition: false,
   isCustom: true,
@@ -107,13 +107,13 @@ export const Supporting_arr = [
 
 export const Featured_card = [
   {
-    img: "./images/featured-img-1.svg",
+    img: "https://ik.imagekit.io/WKS/image%2015.png?updatedAt=1696242280225",
     heading:
       "Nature-related reporting tied to the Taskforce on Nature-related Financial…",
     subHeading: "The Nature Risk Barometer (the “Barometer”)",
   },
   {
-    img: "./images/featured-img-2.svg",
+    img: "https://ik.imagekit.io/WKS/image%2016.png?updatedAt=1696242280656",
     heading:
       "Ernst & Young celebrates the 23 founders selected for the EY Entrepreneurial Winning W…",
     subHeading:

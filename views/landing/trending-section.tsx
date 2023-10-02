@@ -17,7 +17,7 @@ const TrendingSection = (): JSX.Element => {
         </div>
 
         <div className="flex flex-wrap lg:justify-between  justify-center items-start mt-8 ">
-          {TRENDING_CARDS.map((item, index) => (
+          {TRENDING_CARDS?.map((item, index) => (
             <div className="w-[385px] lg:mt-0">
               <Card
                 data={item}
