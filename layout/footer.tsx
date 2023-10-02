@@ -40,7 +40,7 @@ const Footer = (): JSX.Element => {
             {FOOTER_ICONS.map((item) => (
               <Link href={item?.url} target="blank">
                 <div className=" border border-[#000] h-[50px] w-[50px] rounded-[50%] flex items-center justify-center cursor-pointer">
-                  <Image src={item?.icon} width={25} height={25} alt="" />
+                  <img src={item?.icon} width={25} height={25} alt="" />
                 </div>
               </Link>
             ))}

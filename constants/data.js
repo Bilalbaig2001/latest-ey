@@ -202,28 +202,28 @@ export const FOOTER_ITEMS = [
 
 export const FOOTER_ICONS = [
   {
-    icon: "./images/social-icon1.svg",
+    icon: "https://ik.imagekit.io/WKS/XMLID_801_.png?updatedAt=1696255898568",
     url: "https://www.linkedin.com/feed/",
   },
   {
-    icon: "./images/social-icon2.svg",
+    icon: "https://ik.imagekit.io/WKS/Vector%20(32).png?updatedAt=1696255898335",
     url: "https://www.youtube.com/",
   },
 
   {
-    icon: "./images/social-icon4.svg",
+    icon: "https://ik.imagekit.io/WKS/Globalization.png?updatedAt=1696255894628",
     url: "https://web.wechat.com/?lang=en",
   },
   {
-    icon: "./images/social-icon5.svg",
+    icon: "https://ik.imagekit.io/WKS/Vector%20(30).png?updatedAt=1696255894494",
     url: "https://web.whatsapp.com/",
   },
   {
-    icon: "./images/social-icon6.svg",
+    icon: "https://ik.imagekit.io/WKS/Vector%20(31).png?updatedAt=1696255894399",
     url: "https://twitter.com/",
   },
   {
-    icon: "./images/social-icon7.svg",
+    icon: "https://ik.imagekit.io/WKS/Group%201512.png?updatedAt=1696255896467",
     url: "https://www.tiktok.com/",
   },
 ];

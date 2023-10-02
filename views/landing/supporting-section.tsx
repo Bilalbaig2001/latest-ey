@@ -96,8 +96,8 @@ const Supporting = (): JSX.Element => {
                   </p>
                   <p className="text-[16px] font-normal text-white pt-4 flex items-center">
                     Discover
-                    <Image
-                      src="./images/right-arrow.svg"
+                    <img
+                      src="https://ik.imagekit.io/WKS/Line%202.png?updatedAt=1696255894415"
                       width={20}
                       height={1}
                       alt=""

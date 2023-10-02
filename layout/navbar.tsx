@@ -30,27 +30,42 @@ const Navbar = () => {
           </div>
           <div className="lg:w-[55%] w-[80%] h-full  lg:flex hidden justify-end items-center gap-8">
             <div className="flex items-center gap-2 h-[90px] border-transparent transition-all cursor-pointer  border-b-4 hover:border-b-4 hover:border-[#FFE600]">
-              <Image src="./images/search.svg" width={20} height={1} alt="" />
+              <img
+                src="https://ik.imagekit.io/WKS/Magnifying%20glass.png?updatedAt=1696255894410"
+                width={20}
+                height={1}
+                alt=""
+              />
               <h2 className="text-sm font-normal text-white cursor-pointer ">
                 Search
               </h2>
             </div>
             <div className="flex items-center gap-2 h-[90px] border-transparent transition-all cursor-pointer  border-b-4 hover:border-b-4 hover:border-[#FFE600]">
-              <Image src="./images/user.svg" width={20} height={1} alt="" />
+              <img
+                src="https://ik.imagekit.io/WKS/User%20(1).png?updatedAt=1696255897418"
+                width={20}
+                height={1}
+                alt=""
+              />
               <h2 className="text-sm font-normal text-white cursor-pointer ">
                 My WKS
               </h2>
             </div>
             <div className="flex items-center gap-2 h-[90px] border-transparent transition-all cursor-pointer  border-b-4 hover:border-b-4 hover:border-[#FFE600]">
-              <Image src="./images/world.svg" width={20} height={1} alt="" />
+              <img
+                src="https://ik.imagekit.io/WKS/World%20wide%20web.png?updatedAt=1696255898413"
+                width={20}
+                height={1}
+                alt=""
+              />
               <h2 className="text-sm font-normal text-white cursor-pointer ">
                 United States
               </h2>
             </div>
           </div>
           <div className="lg:hidden flex w-[80%] justify-end items-center">
-            <Image
-              src="./images/hamicon.svg"
+            <img
+              src="https://ik.imagekit.io/WKS/hamicon.svg?updatedAt=1696256385328"
               width={25}
               height={1}
               alt=""

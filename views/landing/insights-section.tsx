@@ -14,8 +14,8 @@ const InsightsSection = (): JSX.Element => {
               </p>
               <p className="text-[32px] font-normal text-[#2E2E38]">Insights</p>
             </div>
-            <Image
-              src="./images/right-arrow-dark.svg"
+            <img
+              src="https://ik.imagekit.io/WKS/Line%206.png?updatedAt=1696255894419"
               width={40}
               height={1}
               alt=""
